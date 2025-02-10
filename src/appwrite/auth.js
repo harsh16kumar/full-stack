@@ -80,7 +80,7 @@ export class AuthService {
             return null;
         } catch (error) {
             throw error;
-        }
+        } 
     }
 
     async login({ email, password }) {
